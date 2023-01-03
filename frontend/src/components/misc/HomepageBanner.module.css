@@ -1,0 +1,22 @@
+.default{
+    align-items: center;
+    font-size: 1.2em;
+    background-color: rgb(53, 58, 93);
+    color: white;
+    padding: 0.8em;
+    display: flex;
+}
+
+.icon {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.text {
+    width: 40%;
+    margin-right: auto;
+}
+
+.title{
+    font-weight: 700;
+}

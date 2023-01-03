@@ -1,0 +1,19 @@
+.default{
+    padding: 5em 24em;
+    text-align: center;
+}
+
+.default > p{
+    margin-bottom: 2em;
+}
+
+.default > a{
+    background-color: rgb(53, 58, 93);
+    padding: 1em 2em;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgb(218, 218, 218);
+    color: rgb(246, 246, 246);
+    margin-bottom: 2em 0;
+    cursor: pointer;
+    text-decoration: none;
+}

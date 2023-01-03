@@ -1,0 +1,39 @@
+.default {
+    padding: 3em 25em;
+    text-align: left;
+}
+
+.default > input[type=text], .default > input[type=password] {
+    width: 100%;
+    padding: 1.5em;
+    box-shadow: 0px 2px 6px rgb(218, 218, 218);
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    margin: 0.5em 0 1.5em 0;
+    box-sizing: border-box
+}
+
+.default > input:focus{
+    outline: none;
+}
+
+.loginButton{
+    font-family: Montserrat;
+    font-weight: 700;
+    background-color: rgb(53, 58, 93);
+    padding: 1em 2em;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 2px 6px rgb(218, 218, 218);
+    color: white;
+    font-size: 1em;
+    width: 100%;
+    margin: 2em 0;
+    cursor: pointer;
+}
+
+.errMsg{
+    font-size: 0.8em;
+    color: rgb(191, 30, 46);
+}
