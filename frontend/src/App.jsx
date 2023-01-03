@@ -19,15 +19,16 @@ import MusicianPage from "./pages/MusicianPage";
 export default function App() {
   const [loggedIn, setLoggedIn] = useState(false);
 
+  const token = localStorage.getItem("token");
+  const userId = localStorage.getItem("userId");
+
   useEffect(() => {
     if (
-      localStorage.getItem("token") == null &&
-      localStorage.getItem("userId") == null
+      token == null && userId == null
     ) {
       setLoggedIn(false);
     } else if (
-      localStorage.getItem("token") != "undefined" &&
-      localStorage.getItem("userId") != "undefined"
+      token != "undefined" && userId != "undefined"
     ) {
       setLoggedIn(true);
     }
