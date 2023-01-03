@@ -30,8 +30,6 @@ export default function App() {
       localStorage.getItem("userId") != "undefined"
     ) {
       setLoggedIn(true);
-    } else {
-      setLoggedIn(false);
     }
   }, [loggedIn]);
 
